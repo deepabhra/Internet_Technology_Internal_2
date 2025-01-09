@@ -1,0 +1,92 @@
+<!-- Question - 1 : Create a webpage that includes a table displaying student records (Name, Roll No., Marks), a button to add a new record, and another button to sort the records based on marks. Ensure the use of JavaScript functions for adding and sorting records. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Student Records</h1>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Roll No.</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Arjun Mukherjee</td>
+                <td>1</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Priya Ghosh</td>
+                <td>2</td>
+                <td>74</td>
+            </tr>
+            <tr>
+                <td>Ananya Das</td>
+                <td>3</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>Sourav Chatterjee</td>
+                <td>4</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>Shreya Roy</td>
+                <td>5</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Tapan Banerjee</td>
+                <td>6</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>Moumita Sarkar</td>
+                <td>7</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Sujoy Saha</td>
+                <td>8</td>
+                <td>64</td>
+            </tr>
+            <tr>
+                <td>Ria Dutta</td>
+                <td>9</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Amit Sen</td>
+                <td>10</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Roshni Bhattacharya</td>
+                <td>11</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Arindam Paul</td>
+                <td>12</td>
+                <td>70</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <button onclick="addRecord()">Add Record</button>
+    <button onclick="sortRecords()">Sort by Marks</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
