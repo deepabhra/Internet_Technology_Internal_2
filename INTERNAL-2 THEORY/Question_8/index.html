@@ -1,0 +1,35 @@
+<!-- Question - 8 : Create an HTML form for user registration that includes fields for username, email, password,and a checkbox to agree to terms and conditions. Use JavaScript to validate that all fields are filled before submission. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="registrationForm">
+        <h2>User Registration</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label>
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the terms and conditions
+        </label>
+
+        <button type="submit">Register</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
